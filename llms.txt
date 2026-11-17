@@ -1,0 +1,29 @@
+# Farbod Younesi
+
+> Official English and Persian portfolio of Farbod Younesi (فربد یونسی), an electrical engineer and researcher working on robotics and control systems, cyber-physical systems security, autonomous vehicles, and computer vision.
+
+## English
+
+- [Profile](https://farbodynsi.github.io/): Biography, education, technical skills, and RoboCup awards.
+- [Research and publications](https://farbodynsi.github.io/research.html): Research interests, publication status, and research experience.
+- [Robotics projects](https://farbodynsi.github.io/projects.html): A scale-model self-driving car, a retail inventory-tracking robot, and an ESP32 smart-home project.
+- [Industry collaboration](https://farbodynsi.github.io/collaboration.html): Pilot ideas, hardware in development, and partnership and funding inquiries.
+- [Courses and teaching](https://farbodynsi.github.io/courses.html): Robot Control Bootcamp and university teaching experience.
+- [Contact](https://farbodynsi.github.io/contact.html): Professional contact details and profiles.
+
+## فارسی
+
+- [نمایه و سوابق](https://farbodynsi.github.io/fa/): معرفی، تحصیلات، مهارت‌ها و جوایز.
+- [پژوهش و مقالات](https://farbodynsi.github.io/fa/research.html): علایق، مقالات و سوابق پژوهشی.
+- [پروژه‌های رباتیک](https://farbodynsi.github.io/fa/projects.html): خودروی خودران، ربات پایش موجودی و خانهٔ هوشمند.
+- [همکاری صنعتی](https://farbodynsi.github.io/fa/collaboration.html): طرح‌های آزمایشی، پروژه‌های در حال توسعه و فرصت‌های همکاری و تأمین مالی.
+- [دوره‌ها و تدریس](https://farbodynsi.github.io/fa/courses.html): دورهٔ کنترل ربات و سوابق تدریس.
+- [تماس](https://farbodynsi.github.io/fa/contact.html): راه‌های تماس و نمایه‌های حرفه‌ای.
+
+## Primary references
+
+- [IEEE CCTA 2026 proceedings paper](https://doi.org/10.1109/CCTA62090.2026.11684307): Trojan Attacks on Neural Network Controllers for Robotic Systems, by Farbod Younesi, Walter Lucia, and Amr Youssef.
+- [arXiv preprint](https://arxiv.org/abs/2602.05121): Abstract and open preprint for the CCTA paper.
+- [PreCySe Group at Concordia University](https://users.encs.concordia.ca/~wlucia/Group.html): The Predictive Cyber-Physical System Security Group’s university page.
+- [Google Scholar](https://scholar.google.com/citations?user=7HzUuhoAAAAJ&hl=en): Farbod Younesi’s publication profile.
+- [GitHub profile](https://github.com/farbodYNSI): Public software projects and repositories.
