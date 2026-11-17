@@ -1,42 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Robotics, autonomous vehicles, and embedded systems projects.">
+    <meta name="theme-color" content="#10171b">
     <title>Projects | Farbod Younesi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=DM+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="motion.js" defer></script>
+    <link rel="alternate" hreflang="fa" href="fa/projects.html">
 </head>
-<body>
-    <nav>
-        <div class="brand"><a href="index.html">Farbod Younesi</a></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <h2>Featured Projects</h2>
-        
-        <div class="card project-card">
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="shell header-inner">
+    <a class="brand" href="index.html"><span class="monogram" aria-hidden="true">FY</span> Farbod Younesi</a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="projects.html" aria-current="page">Projects</a><a href="courses.html">Courses</a><a href="contact.html">Contact</a><a class="collab-nav" href="collaboration.html">Collaboration</a><a class="language-switch" href="fa/projects.html" lang="fa" hreflang="fa">فارسی</a></nav>
+</div></header>
+<main class="shell" id="main">
+<div class="page-intro"><h1>Projects<span>.</span></h1></div>
+<div class="page-content"><div class="card project-card" id="self-driving-car">
             <div class="project-text">
                 <h3>1:10 Scale Self-Driving Car</h3>
                 <p><strong>University—Industry Relations (MCI R&D Center)</strong></p>
                 <p>Developed a 1:10 scale self-driving car featuring CNN-based lane and object detection, recognition of 50 traffic signs, lateral and longitudinal controllers, motion model-based odometry, and autonomous parallel/cross parking.</p>
             </div>
-            <img src="https://aurigarobotics.ir/assets/img/bg_image_2.jpg" alt="AurigaBot V1" class="project-img">
+            <img src="aurigabot-v1.jpg" alt="AurigaBot V1" width="1280" height="709" loading="lazy" decoding="async" class="project-img">
         </div>
 
-        <div class="card project-card">
+        <div class="card project-card" id="inventory-robot">
             <div class="project-text">
                 <h3>Inventory Tracking Robot</h3>
                 <p><strong>Golrang Industrial Group</strong></p>
                 <p>Design and implementation of a differential-drive robot for inventory tracking in supermarkets. Capable of maneuvering between shelf aisles, reading barcodes, and detecting grocery items.</p>
             </div>
-            <img src="https://raw.githubusercontent.com/farbodYNSI/farbodynsi.github.io/refs/heads/main/glrb.png" alt="Inventory Tracking Robot" class="project-img">
+            <img src="inventory-robot.png" alt="Inventory Tracking Robot" width="1821" height="1248" loading="lazy" decoding="async" class="project-img">
         </div>
 
         <div class="card project-card">
@@ -45,8 +45,12 @@
                 <p><strong>Bachelor’s Final Project</strong></p>
                 <p>Developed a scaled-down replica of a smart home. Designed a custom PCB incorporating an ESP32, sensors, and actuators, alongside a mobile application. Primarily responsible for PCB design and embedded software programming.</p>
             </div>
-            <img src="https://via.placeholder.com/300x200?text=Smart+Home+Photo" alt="Smart Home System" class="project-img">
-        </div>
-    </div>
+        </div></div>
+</main>
+<footer class="site-footer"><div class="shell footer-inner">
+    <a class="brand" href="index.html">Farbod Younesi</a>
+    <div class="inline-links"><a href="https://scholar.google.com/citations?user=7HzUuhoAAAAJ&amp;hl=en">Scholar</a><a href="https://github.com/farbodYNSI">GitHub</a><a href="contact.html">Contact</a></div>
+    <a href="#top">Back to top ↑</a>
+</div></footer>
 </body>
 </html>

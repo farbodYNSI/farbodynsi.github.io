@@ -1,53 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Research interests, publications, and research experience.">
+    <meta name="theme-color" content="#10171b">
     <title>Research | Farbod Younesi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=DM+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="motion.js" defer></script>
+    <link rel="alternate" hreflang="fa" href="fa/research.html">
 </head>
-<body>
-    <nav>
-        <div class="brand"><a href="index.html">Farbod Younesi</a></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <h2>Research Interests</h2>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="shell header-inner">
+    <a class="brand" href="index.html"><span class="monogram" aria-hidden="true">FY</span> Farbod Younesi</a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="research.html" aria-current="page">Research</a><a href="projects.html">Projects</a><a href="courses.html">Courses</a><a href="contact.html">Contact</a><a class="collab-nav" href="collaboration.html">Collaboration</a><a class="language-switch" href="fa/research.html" lang="fa" hreflang="fa">فارسی</a></nav>
+</div></header>
+<main class="shell" id="main">
+<div class="page-intro"><h1>Research<span>.</span></h1></div>
+<div class="page-content"><h2>Research Interests</h2>
         <div class="card">
             <ul>
                 <li>Robotics & SLAM (Simultaneous Localization and Mapping)</li>
                 <li>Cyber-physical Systems & Autonomous Vehicles</li>
                 <li>Control Systems Design</li>
-                <li>Computer Vision and Convolutional Neural Networks (CNNs)</li>
+                <li>Computer Vision</li>
             </ul>
         </div>
 
         <h2>Publications</h2>
         <div class="card">
             <h3>Trojan Attacks on Neural Network Controllers for Robotic Systems</h3>
-            <p><em>Conference on Control Technology and Applications (CCTA) 2026</em></p>
-            <p><a href="https://scholar.google.com/citations?user=7HzUuhoAAAAJ&hl=en" target="_blank">View on Google Scholar</a></p>
+            <p><em>Conference on Control Technology and Applications (CCTA) 2026</em> <span class="status">Published</span></p>
+            <p>Farbod Younesi, Walter Lucia, Amr Youssef</p>
+            <p class="inline-links"><a href="https://doi.org/10.1109/CCTA62090.2026.11684307">IEEE proceedings</a><a href="https://arxiv.org/abs/2602.05121">arXiv preprint</a></p>
+            <p><a href="https://scholar.google.com/citations?user=7HzUuhoAAAAJ&amp;hl=en">View on Google Scholar</a></p>
         </div>
         <div class="card">
             <h3>An Optimized Density-Based Lane Keeping System for A Cost-Efficient Autonomous Vehicle Platform: AurigaBot V1</h3>
             <p><em>2025</em></p>
-            <p><a href="https://scholar.google.com/citations?user=7HzUuhoAAAAJ&hl=en" target="_blank">View on Google Scholar</a></p>
+            <p><a href="https://scholar.google.com/citations?user=7HzUuhoAAAAJ&amp;hl=en">View on Google Scholar</a></p>
         </div>
 
-        <h2>Research Experience</h2>
-        <div class="card">
-            <h3>Research Assistant | Robotics and Intelligent Automation Lab</h3>
-            <p><strong>Shahid Beheshti University (Aug 2020 – Sep 2023)</strong></p>
-            <p>Member of the Auriga Robotics team under the supervision of Prof. Mohammad Hossein Moaiyeri, aiming to develop a small-scale self-driving car. My contributions included lane and object detection, control systems design, and localization.</p>
-            <p><a href="https://aurigarobotics.ir/" target="_blank">Visit Auriga Robotics Website</a></p>
-        </div>
+        <div class="card"><h3>American Control Conference submission</h3><p><em>ACC 2027</em> <span class="status review">Under review</span></p></div>
+        <section id="research-experience" aria-labelledby="experience-title">
+            <h2 id="experience-title">Research Experience</h2>
+            <article class="card">
+                <h3>Research Assistant · PreCySe Group</h3>
+                <p><strong>Predictive Cyber-Physical System Security Group</strong></p>
+                <dl class="experience-facts">
+                    <div><dt>Institution</dt><dd>Concordia University · Remote</dd></div>
+                    <div><dt>Dates</dt><dd>2026–Present</dd></div>
+                    <div><dt>Supervisors</dt><dd>Prof. Walter Lucia and Prof. Amr Youssef</dd></div>
+                </dl>
+                <p>Research on cyber-physical systems security and learning-based robotic control. In our IEEE CCTA 2026 paper, we used a simulated differential-drive robot to study how a Trojan in a neural tracking controller can alter wheel commands when triggered.</p>
+                <p class="inline-links"><a href="https://users.encs.concordia.ca/~wlucia/Group.html">Concordia group page</a><a href="https://github.com/PreCyseGroup">PreCySe on GitHub</a><a href="https://doi.org/10.1109/CCTA62090.2026.11684307">CCTA 2026 paper</a></p>
+            </article>
+            <article class="card">
+                <h3>Research Assistant · Robotics and Intelligent Automation Lab</h3>
+                <dl class="experience-facts">
+                    <div><dt>Institution</dt><dd>Shahid Beheshti University</dd></div>
+                    <div><dt>Dates</dt><dd>Aug 2020 – Sep 2023</dd></div>
+                    <div><dt>Supervisor</dt><dd>Prof. Mohammad Hossein Moaiyeri</dd></div>
+                    <div><dt>Team</dt><dd>Auriga Robotics</dd></div>
+                </dl>
+                <p>My contributions to a small-scale self-driving car included lane and object detection, control systems design, and localization.</p>
+                <p><a href="https://aurigarobotics.ir/">Visit Auriga Robotics Website</a></p>
+            </article>
+        </section>
     </div>
+</main>
+<footer class="site-footer"><div class="shell footer-inner">
+    <a class="brand" href="index.html">Farbod Younesi</a>
+    <div class="inline-links"><a href="https://scholar.google.com/citations?user=7HzUuhoAAAAJ&amp;hl=en">Scholar</a><a href="https://github.com/farbodYNSI">GitHub</a><a href="contact.html">Contact</a></div>
+    <a href="#top">Back to top ↑</a>
+</div></footer>
 </body>
 </html>
