@@ -16,6 +16,9 @@ function startRobotDemo(canvas) {
   const context = canvas.getContext("2d");
   if (!context) return;
   const persian = document.documentElement.lang === "fa";
+  const mapFont = persian
+    ? `17px ${getComputedStyle(canvas).getPropertyValue("--persian-font").trim()}`
+    : "15px monospace";
 
   const width = canvas.width;
   const height = canvas.height;
@@ -74,7 +77,7 @@ function startRobotDemo(canvas) {
     context.setLineDash([]);
 
     context.fillStyle = "#acc1c3";
-    context.font = '15px monospace';
+    context.font = mapFont;
     context.textAlign = "left";
     context.fillText(persian ? "شروع" : "START", 78, 441);
     context.fillText(persian ? "هدف" : "GOAL", 593, 95);
@@ -156,4 +159,9 @@ function startRobotDemo(canvas) {
   });
   observer.observe(canvas);
   sync();
+  if (persian) {
+    document.fonts.ready.then(() => {
+      if (!playing || !visible || document.hidden) draw(elapsed);
+    });
+  }
 }

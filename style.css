@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("fonts/noto-naskh-arabic.ttf") format("truetype");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
 :root {
   color-scheme: dark;
   --bg: #10171b;
@@ -10,6 +17,7 @@
   --cyan: #6ae1da;
   --mono: "IBM Plex Mono", monospace;
   --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --persian-font: "B Nazanin", BNazanin, "B Mitra", "B Lotus", "Noto Naskh Arabic", serif;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 "DM Sans", system-ui, sans-serif; }
@@ -186,11 +194,14 @@ figcaption .scan-key { border-color: var(--cyan); border-top-style: dashed; }
   .collab-contact { grid-template-columns: minmax(0, 1fr); }
   .experience-facts > div { grid-template-columns: minmax(0, 1fr); }
 }
-[dir="rtl"] {
-  --display: Tahoma, "Segoe UI", sans-serif;
-  --mono: Tahoma, "Segoe UI", sans-serif;
-  font-family: Tahoma, "Segoe UI", sans-serif;
-}
+[dir="rtl"] { --display: var(--persian-font); --mono: var(--persian-font); }
+[dir="rtl"] body { font: 18px/1.85 var(--persian-font); }
+nav .language-switch[lang="fa"] { font: 700 17px var(--persian-font); }
+[dir="rtl"] nav a, [dir="rtl"] .button { font-size: 17px; }
+[dir="rtl"] .demo-bar, [dir="rtl"] figcaption, [dir="rtl"] .social-links a,
+[dir="rtl"] .award-place, [dir="rtl"] .experience-facts dt,
+[dir="rtl"] .status, [dir="rtl"] .chip, [dir="rtl"] .collab-label { font-size: 15px; }
+[dir="rtl"] .award-list p, [dir="rtl"] .footer-inner a, [dir="rtl"] .copy-status { font-size: 16px; }
 [dir="rtl"] h1, [dir="rtl"] h2 { line-height: 1.24; letter-spacing: 0; }
 [dir="rtl"] .hero h1 { font-size: clamp(62px, 9vw, 116px); }
 [dir="rtl"] .page-intro h1 { font-size: clamp(54px, 8vw, 102px); }
@@ -198,4 +209,4 @@ figcaption .scan-key { border-color: var(--cyan); border-top-style: dashed; }
 [dir="rtl"] .card ul { padding-left: 0; padding-inline-start: 20px; }
 [dir="rtl"] .demo-bar button, [dir="rtl"] .simulation-label { margin-left: 0; margin-inline-start: auto; }
 [dir="rtl"] .collab-proof article { border-left: 1px solid var(--line); border-inline-start: 3px solid var(--cyan); }
-[dir="rtl"] nav .language-switch { font-family: "DM Sans", system-ui, sans-serif; }
+[dir="rtl"] nav .language-switch[lang="en"] { font: 500 13px "DM Sans", system-ui, sans-serif; }
