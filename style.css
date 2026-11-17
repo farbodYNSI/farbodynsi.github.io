@@ -60,7 +60,7 @@ nav .language-switch:hover { color: var(--signal); }
 .hero { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 70px); align-items: center; padding-block: 52px 32px; }
 .profile-pic {
   display: block;
-  width: clamp(88px, 10vw, 116px);
+  width: clamp(128px, 17vw, 192px);
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
