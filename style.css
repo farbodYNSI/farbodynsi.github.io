@@ -69,7 +69,6 @@ nav .language-switch:hover { color: var(--signal); }
   margin-bottom: 18px;
 }
 .hero h1 { font-size: clamp(85px, 11vw, 156px); letter-spacing: -.03em; line-height: .77; margin: 0 0 24px; }
-h1 span { color: var(--signal); }
 .hero-role { max-width: 34ch; color: var(--ink); font-size: clamp(16px, 2vw, 20px); margin-bottom: 20px; }
 .hero-actions, .social-links { display: flex; flex-wrap: wrap; gap: 8px 12px; }
 .button { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding-inline: 13px; border: 1px solid var(--signal); background: var(--signal); color: var(--bg); text-decoration: none; font-weight: 700; font-size: 14px; }
@@ -81,7 +80,6 @@ h1 span { color: var(--signal); }
 .demo-bar { border-bottom: 1px solid var(--line); }
 .demo-bar button { margin-left: auto; background: none; border: 0; cursor: pointer; min-height: 44px; color: var(--ink); font: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .demo-bar button:hover { color: var(--signal); }
-.live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--signal); }
 canvas { display: block; width: 100%; height: auto; aspect-ratio: 720 / 512; background: #111b20; }
 figcaption { border-top: 1px solid var(--line); }
 figcaption span { display: inline-flex; align-items: center; gap: 7px; }
